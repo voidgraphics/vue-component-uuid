@@ -1,0 +1,27 @@
+{
+  "name": "vue-component-uuid",
+  "version": "1.0.0",
+  "description": "A Vue.js plugin that adds unique IDs to components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voidgraphics/vue-component-uuid.git"
+  },
+  "keywords": [
+    "vue",
+    "uuid",
+    "component"
+  ],
+  "author": "Adrien Leloup <adrien@whitecube.be>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/voidgraphics/vue-component-uuid/issues"
+  },
+  "homepage": "https://github.com/voidgraphics/vue-component-uuid#readme",
+  "dependencies": {
+    "uuid": "^3.4.0"
+  }
+}
