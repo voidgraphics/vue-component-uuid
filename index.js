@@ -1,9 +1,9 @@
 export default function install(Vue) {
-	let uid = 0;
+    let uid = 0;
 
-	Vue.mixin({
-	    beforeCreate() {
-	        this.$uid = ++uid;
-	    }
-	});
+    Vue.mixin({
+        beforeCreate() {
+            this.$uid = ++uid;
+        }
+    });
 }
