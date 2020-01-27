@@ -22,9 +22,9 @@ Vue.use(VueComponentUuid);
 
 ```vue
 <template>
-	<div>
-		{{ $uid }}
-	</div>
+    <div>
+        {{ $uid }}
+    </div>
 </template>
 
 <script>
